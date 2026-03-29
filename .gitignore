@@ -1,4 +1,9 @@
 HELP.md
+
+.env
+*.env
+
+
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -18,6 +23,14 @@ target/
 *.iws
 *.iml
 *.ipr
+
+### OS file ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+logs/
 
 ### NetBeans ###
 /nbproject/private/
